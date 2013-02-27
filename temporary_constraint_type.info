@@ -1,0 +1,9 @@
+name = Temporary Constraint Type
+core = 7.x
+package = Access Humanitarian
+version = 7.x-1.0-beta1
+project = temporary_constraint_type
+dependencies[] = features
+dependencies[] = taxonomy
+features[features_api][] = api:1
+features[taxonomy][] = temporary_constraint_type
